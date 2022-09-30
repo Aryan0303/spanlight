@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/scss/style2.scss" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
 
-    <title>Projects</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
-  <body>
-    <div class="container-fluid main">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Spanlite</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon" fill="blue"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="components/ligtingsol/ls.html"
-                  >Lighting Solutions</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/components/projects/projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
+  <link rel="stylesheet" href="/scss/styles.scss" />
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
+  <title>Projects</title>
+</head>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
-              </li>
-            </ul>
-            <div class="custom-select d-flex justify-content-between align-items-center" style="width:200px;">
+<body>
+  <div class="container-fluid p-0">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Spanlite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" fill="blue"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/components/ligtingsol/ls.html">Lighting
+                    Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/components/projects/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resources</a>
+                </li>
+              </ul>
+              <div class="custom-select d-flex justify-content-between align-items-center" style="width:200px;">
                 <select class="py-2">
                   <option value="0">Languages</option>
                   <option value="1">English</option>
@@ -60,112 +54,116 @@
                 </select>
                 <i class="bi bi-search text-white px-2"></i>
               </div>
-           
-          </div>
-        </div>
-      </nav>
-       <!--second part-->
-       <div class="second_section-2 d-flex flex-wrap justify-content-between py-5 px-3">
-        <div class="sec_content-2 flex-1 flex-fill col-lg-10">
-          <p class="text-white-2 m-0 ">
-            We Make Light Work  
-          </p>
-         
-        </div>
-        <div
-          class="sec_arrow_content flex-fill flex-1 justify-content-end d-flex align-items-end"
-        >
-          <div class="d-flex align-items-center">
-           
-            <div class="icon_button col-lg-4">
-              <button type="button p-0" class="btn btn-info btn-circle btn-xl col-lg-3">
-               <b> Need help?</b> 
-              </button>
-            </div>
-            
-          </div>
-          <div class="container">
-            <h2>Filters</h2>
-      
-            <div class="select-box">
-              <div class="options-container">
-                <div class="option">
-                  <input
-                    type="radio"
-                    class="radio"
-                    id="automobiles"
-                    name="category"
-                  />
-                  <label for="automobiles">Automobiles</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="film" name="category" />
-                  <label for="film">Film & Animation</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="science" name="category" />
-                  <label for="science">Science & Technology</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="art" name="category" />
-                  <label for="art">Art</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="music" name="category" />
-                  <label for="music">Music</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="travel" name="category" />
-                  <label for="travel">Travel & Events</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="sports" name="category" />
-                  <label for="sports">Sports</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="news" name="category" />
-                  <label for="news">News & Politics</label>
-                </div>
-      
-                <div class="option">
-                  <input type="radio" class="radio" id="tutorials" name="category" />
-                  <label for="tutorials">Tutorials</label>
-                </div>
-              </div>
-      
-              <div class="selected">
-                Select Video Category
-              </div>
-            </div>
-          </div>
-      
-        </div>
 
+            </div>
+          </div>
+        </nav>
+        <!--hero section-->
+        <div class="light-bg-grey py-5 px-3 py-5 px-3">
+          <p class="h1 m-0 ">
+            We Make Light Work
+          </p>
+          <button type="button" class="bg-info text-white rounded-circle btn-circle d-block block-left">
+            Need help?
+          </button>
+          <!--hero section--->
+          <!-- filter section start -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-10">
+                <div class="row">
+                  <div class="col-sm-2">
+
+                    <h2>Filters</h2>
+                  </div>
+                  <div class="col-sm-3">
+
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-3">
+
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-3">
+
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- filter section end -->
+        </div>
       </div>
-      <!--second part-end-->
-     
-      <script >const selected = document.querySelector(".selected");
-        const optionsContainer = document.querySelector(".options-container");
-        
-        const optionsList = document.querySelectorAll(".option");
-        
-        selected.addEventListener("click", () => {
-          optionsContainer.classList.toggle("active");
-        });
-        
-        optionsList.forEach(o => {
-          o.addEventListener("click", () => {
-            selected.innerHTML = o.querySelector("label").innerHTML;
-            optionsContainer.classList.remove("active");
-          });
-        });</script>
+
+
     </div>
-  </body>
+    <!--Gallery start-->
+    <div class="container p-5 gallery">
+      <div class="row g-0">
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="lightning_card p-3">
+            <img src="/Images/5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Gallery end-->
+</body>
+
 </html>

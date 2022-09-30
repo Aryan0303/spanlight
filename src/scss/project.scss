@@ -1,0 +1,72 @@
+
+/*Second Section*/
+.second_section-2 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(214, 214, 214);
+    padding: 20px 30px;
+  }
+  .second_section-2 .sec_content-2 p {
+    color:#37515f;
+  
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 41px;
+    letter-spacing: -0.47px;
+  }
+  p.m-0.pe-3.text-white-2 {
+    color: #37515f;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+  }
+  /*Icon_button*/
+  button.btn.arrow_btn.btn-info {
+    border-radius: 150px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .second_section-2 {
+      height: 350px;
+    }
+    .second_section-2 .sec_content-2 p {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: 0.1px;
+    }
+    p.m-0.pe-3.text-white-2 {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 23px;
+    }
+  }
+  /*select box */
+  
+  /*selectbox end*/
+  
+  /*Gallery*/
+
+#border_card{
+  border-right: 1px solid rgb(216, 216, 216);
+  border-left: 1px solid rgb(216, 216, 216);
+}
+.lightning_card img{
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+.lightning_card a{
+  text-decoration: none;
+  color: #37515f;
+  font-size: 20px ;
+  line-height: 27px;
+}
+@media only screen and (max-width: 767px){
+  #border_card{
+      border-right: none;
+      border-left: none;
+  }
+}
