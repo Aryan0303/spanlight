@@ -1,7 +1,7 @@
 {
   "name": "spanlite-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "Html and css work on Spantlite website",
   "main": "index.js",
   "engines": {
     "node": "16"
