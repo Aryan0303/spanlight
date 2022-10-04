@@ -59,7 +59,7 @@ select.py-2 {
 .banner {
     width: 100%;
     height: 80vh;
-    background-image: url("images/1.jpg");
+    background-image: url("/Images/1.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -564,16 +564,16 @@ button.btn.arrow_btn.btn-info {
 }
 
 /*Footer*/
-.main_footer {
+.main_footer{
     width: 100%;
     background-color: #37515f;
     padding: 50px 20px;
 
-    .footer_pages_link {
-        .footer_section_pages {
+    .footer_pages_link{
+        .footer_section_pages{
 
-            p {
-                a {
+            p{
+                a{
                     color: white;
                     text-decoration: none;
                     font-size: 16px;
@@ -583,66 +583,57 @@ button.btn.arrow_btn.btn-info {
         }
     }
 }
-
-.footer_section_pages {
+.footer_section_pages{
     flex: 1;
 }
-
 .footer_col_content {
-    p {
-        font-size: 16px;
-        font-weight: 300;
-        color: white;
-    }
+    p{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
 }
 
-.input-group {
-    input {
+.input-group{
+    input{
         background: none;
         border: none;
     }
-
-    input:focus {
+    input:focus{
         background: none;
     }
 }
-
-.footer_col_title {
-    h2 {
+.footer_col_title{
+    h2{
         font-size: 20px;
         font-weight: 300;
         color: white;
 
     }
 }
-
 /*Last Footer Section*/
-.footer_images_section img {
+.footer_images_section img{
     max-width: 100%;
     height: auto;
     padding: 0px 10px;
 }
-
-.download_brochure_section p {
+.download_brochure_section p{
     font-size: 20px;
     line-height: 21px;
     font-weight: 300;
     font-family: "R MNeue Regular", Sans-serif;
     color: #37515f;
 }
-
-.design_by_section p {
+.design_by_section p{
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
     color: #37515f;
 }
-
-@media only screen and (max-width: 992px) {
-    .footer_images_section {
+@media only screen and (max-width: 992px){
+    .footer_images_section{
         justify-content: flex-start !important;
     }
-
     .design_by_section {
         justify-content: flex-start !important;
     }
