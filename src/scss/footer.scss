@@ -1,0 +1,81 @@
+/*Footer*/
+.main_footer {
+    background-color: #37515f;
+
+    .footer_section_pages {
+
+        p {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+
+}
+
+.footer_section_pages {
+    flex: 1;
+}
+
+.footer_col_content {
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+.input-group {
+    input {
+        background: none;
+        border: none;
+    }
+
+    input:focus {
+        background: none;
+    }
+}
+
+.footer_col_title {
+    h2 {
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+
+    }
+}
+
+/*Last Footer Section*/
+.footer_images_section img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 10px;
+}
+
+.download_brochure_section p {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 300;
+    font-family: "R MNeue Regular", Sans-serif;
+    color: #37515f;
+}
+
+.design_by_section p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #37515f;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer_images_section {
+        justify-content: flex-start !important;
+    }
+
+    .design_by_section {
+        justify-content: flex-start !important;
+    }
+}

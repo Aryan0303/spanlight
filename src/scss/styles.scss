@@ -4,7 +4,201 @@
 // nav styling
 @import url("./base.scss");
 @import url("./home.scss");
+@import url("./nav.scss");
 @import url("./project.scss");
 
+@import url("./style1.scss");
+/*Recent Projects*/
 
+.recent_projects {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #37515f;
+    margin: 20px 0px 0px 0px;
+}
 
+#border_right_column {
+    border-right: 1px solid #9BA8AF;
+}
+
+.recent_project_heading h2 {
+    font-size: 35px;
+    font-weight: 350;
+    color: white;
+    line-height: 45px;
+    letter-spacing: -1px;
+}
+
+@media only screen and (max-width: 992px) {
+    #border_right_column {
+        border-right: none;
+    }
+}
+
+.card-img-overlay {
+    transform: translateY(28rem);
+    transition: transform 0.18s ease-in;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+    .card-img-overlay {
+        transform: translateY(40rem);
+    }
+
+    .card-title {
+        margin: 0 !important;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .card-img-overlay .card-text {
+
+        margin: 0 !important;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+
+    .card-img-overlay .btn {
+        font-size: 7px;
+    }
+}
+
+.card-img-overlay .card-text {
+    opacity: 0;
+    transform: translateY(-6rem);
+    transition: opacity 1s ease-in, transform 0.25s ease-in;
+}
+
+.card-img-overlay .btn {
+    opacity: 0;
+    transform: translateY(2rem);
+}
+
+.card {
+    overflow: hidden;
+    background-color: #345;
+    border: none !important;
+}
+
+.card:hover .card-img {
+    mix-blend-mode: overlay;
+}
+
+.card:hover .card-img-overlay {
+    transform: translateY(0);
+    transition: transform 1s ease-out;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .card-text {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-out, transform 0.2s ease-out;
+}
+
+.card:hover .btn {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.7s ease-out, transform 0.35s ease-out;
+}
+
+.view_all_link a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: 300;
+}
+/*Recent Projects End*/
+/*Footer*/
+.main_footer {
+    background-color: #37515f;
+
+    .footer_section_pages {
+
+        p {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+
+}
+
+.footer_section_pages {
+    flex: 1;
+}
+
+.footer_col_content {
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+.input-group {
+    input {
+        background: none;
+        border: none;
+    }
+
+    input:focus {
+        background: none;
+    }
+}
+
+.footer_col_title {
+    h2 {
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+
+    }
+}
+
+/*Last Footer Section*/
+.footer_images_section img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 10px;
+}
+
+.download_brochure_section p {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 300;
+    font-family: "R MNeue Regular", Sans-serif;
+    color: #37515f;
+}
+
+.design_by_section p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #37515f;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer_images_section {
+        justify-content: flex-start !important;
+    }
+
+    .design_by_section {
+        justify-content: flex-start !important;
+    }
+}
+/*Footer End*/
