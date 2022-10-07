@@ -1,0 +1,99 @@
+.resource-main-section {
+    background-color: rgb(214, 214, 214);
+
+}
+
+.resource-main-content p {
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.47px;
+    margin-bottom: 1.5em;
+    color: #37515F;
+}
+.resources-article-heading p{
+    color: #37515F;
+    font-family: "R MNeue Light", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -1px;
+}
+
+/* Resources Gallery*/
+
+.resources-card img{
+    max-width: 100%;
+    height: auto;
+}
+.resources-card .reasource-gallery-link a{
+    font-size: 20px;
+}
+.resource-border-column:nth-child(even){
+    border-left: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+}
+@media only screen and (max-width: 992px){
+    .resource-border-column:nth-child(even){
+        border-left: 0;
+        border-right: 0;
+    }
+}
+.resource-faq-section{
+    background-color: rgb(214, 214, 214);
+     
+}
+/*Resources Gallery End*/
+/*Appplication section*/
+ .application_sec .row .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+    border-left: 1px solid rgb(216, 216, 216);
+        border-right:1px solid rgb(216, 216, 216) ;
+ }
+/*End*/
+/*Order Sample*/
+.order-sample-section .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+        border-left: 1px solid rgb(216, 216, 216);
+        border-right:1px solid rgb(216, 216, 216) ;
+    }
+    .order-sample-section .col-lg-4.col-md-6.col-sm-12 p{
+        color: #37515F;
+        font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    }
+    .order-sample-section .col-lg-4.col-md-6.col-sm-12 h3{
+        color: #37515F;
+        font-weight: 300;
+    }
+    .order-sample-section .col-lg-4.col-md-6.col-sm-12 .resource-order-link a{
+        color: #37515F;
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1px;
+    }
+    @media only screen and (max-width: 992px){
+        .order-sample-section .col-lg-4.col-md-6.col-sm-12{
+            margin-top: 20px !important;
+        }
+        .order-sample-section .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+            border-right: 0px ;
+        }
+        .link_content.mt-2 a{
+            font-size: 15px;
+        }
+        .image_gallery_gallery_section.d-flex{
+            margin-top: 35px;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        .order-sample-section .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+            border-left: 0px ;
+        }
+    }
+/*Order Sample*/
+/*Divider*/
+.resources-divider{
+    
+}
