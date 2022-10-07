@@ -1,3 +1,46 @@
-.remove-this-class {
-    font-size: 16px;
+
+nav.navbar.navbar-expand-lg.bg-light {
+    background-color: var(--theme_color) !important;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-image: linear-gradient(45deg, #12b4f0, #0ccaca, #2acb7d) 1;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0.45 !important;
+    align-items: center;
+}
+
+a.navbar-brand {
+    color: var(--white);
+    font-weight: bold;
+    font-family: var(--nav_font);
+}
+
+a.nav-link.active {
+    color: var(--white) !important;
+    font-family: var(--nav_font);
+    font-size: 18px;
+}
+
+a.nav-link {
+    color: var(--white) !important;
+    font-family: var(--nav_font);
+    font-size: 18px;
+}
+
+/*Mobile Drop down*/
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: center !important;
+}
+
+select.py-2 {
+
+    background-color: #37515f;
+    border: none;
+    color: white;
+
+    width: 115px
 }

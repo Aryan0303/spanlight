@@ -1,13 +1,23 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import url("./font-awesome-variables.scss");
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+
 // nav styling
 @import url("./base.scss");
 @import url("./home.scss");
 @import url("./nav.scss");
 @import url("./project.scss");
 @import url("./resources.scss");
+@import url("./Services.scss");
 @import url("./style1.scss");
+
+
 /*Recent Projects*/
 
 .recent_projects {

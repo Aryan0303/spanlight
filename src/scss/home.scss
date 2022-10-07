@@ -10,51 +10,6 @@
     padding-right: 0px !important;
 }
 
-nav.navbar.navbar-expand-lg.bg-light {
-    background-color: var(--theme_color) !important;
-    padding: 20px;
-    border-bottom-style: solid;
-    border-width: 4px;
-    border-image: linear-gradient(45deg, #12b4f0, #0ccaca, #2acb7d) 1;
-}
-
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 0.45 !important;
-    align-items: center;
-}
-
-a.navbar-brand {
-    color: var(--white);
-    font-weight: bold;
-    font-family: var(--nav_font);
-}
-
-a.nav-link.active {
-    color: var(--white) !important;
-    font-family: var(--nav_font);
-    font-size: 18px;
-}
-
-a.nav-link {
-    color: var(--white) !important;
-    font-family: var(--nav_font);
-    font-size: 18px;
-}
-
-/*Mobile Drop down*/
-ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
-    text-align: center !important;
-}
-
-select.py-2 {
-
-    background-color: #37515f;
-    border: none;
-    color: white;
-
-    width: 115px
-}
 
 /*Banner*/
 .banner {
@@ -278,7 +233,7 @@ button.btn.arrow_btn.btn-info {
     border-left: 1px solid rgb(216, 216, 216);
 }
 
-.lightning_card img {
+.lightning_card img{
     max-width: 100%;
     height: auto;
     width: 100%;
@@ -454,3 +409,78 @@ button.btn.arrow_btn.btn-info {
     }
 }
 
+/*Footer*/
+.main_footer{
+    width: 100%;
+    background-color: #37515f;
+    padding: 50px 20px;
+
+    .footer_pages_link{
+        .footer_section_pages{
+
+            p{
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+.footer_section_pages{
+    flex: 1;
+}
+.footer_col_content {
+    p{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+}
+
+.input-group{
+    input{
+        background: none;
+        border: none;
+    }
+    input:focus{
+        background: none;
+    }
+}
+.footer_col_title{
+    h2{
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+
+    }
+}
+/*Last Footer Section*/
+.footer_images_section img{
+    max-width: 100%;
+    height: auto;
+    padding: 0px 10px;
+}
+.download_brochure_section p{
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 300;
+    font-family: "R MNeue Regular", Sans-serif;
+    color: #37515f;
+}
+.design_by_section p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #37515f;
+}
+@media only screen and (max-width: 992px){
+    .footer_images_section{
+        justify-content: flex-start !important;
+    }
+    .design_by_section {
+        justify-content: flex-start !important;
+    }
+}
