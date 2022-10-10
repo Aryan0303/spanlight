@@ -9,6 +9,32 @@
     font-weight: 400;
     color: #37515f;
 }
-.col-lg-4 .column{
-    border-right: 1px solid #000000;
+.col-lg-4.column {
+    border-right: 1px solid #37515F;
+}
+.Services-About-info {
+    padding: 10px 25px;
+
+}
+.Services-About-info h2 {
+    font-size: 41px;
+    letter-spacing: -1px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #37515f;
+}
+.Services-About-info label span{
+    color: red;
+}
+.Services-About-info input{
+    background-color: #EBE9E8;
+    border: none;
+    margin: 10px 2px 5px 0px;
+    padding: 20px 210px 23px 11px;
+}
+.wrap{
+    display: flex;
+}
+.wrap label{
+    margin: 20px 0px 0px 10px;
 }
