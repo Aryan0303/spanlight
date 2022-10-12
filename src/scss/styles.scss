@@ -13,6 +13,7 @@
 @import url("./home.scss");
 @import url("./nav.scss");
 @import url("./project.scss");
+@import url("./resources.scss");
 @import url("./Services.scss");
 @import url("./style1.scss");
 @import url("./digitallib.scss");
@@ -215,12 +216,16 @@ img.card-img {
 }
 /*Footer End*/
 /*lS Applications part Start*/
-a {
+.ls-appliaction-content.d-flex.align-items-center a {
     text-decoration: none;
-    color: black;
-    margin: 10px;
+    color: #37515f;
+    margin: 8px 0px;
 }
-h3.m-0 {
+.ls-appliaction-head.d-flex.align-items-center h3.m-0 {
     padding: 8px;
+    color: #37515f;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 300;
 }
 /*lS Applications part End*/
