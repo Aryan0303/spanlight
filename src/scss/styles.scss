@@ -16,6 +16,7 @@
 @import url("./resources.scss");
 @import url("./Services.scss");
 @import url("./style1.scss");
+@import url("./product.scss");
 
 
 /*Recent Projects*/
@@ -216,12 +217,16 @@
 .ls-appliaction-content.d-flex.align-items-center a {
     text-decoration: none;
     color: #37515f;
-    margin: 8px 0px;
+    margin: 6px 0px;
+    font-size: 18px;
+  line-height: 27px;
+ 
+  text-align: left;
 }
 .ls-appliaction-head.d-flex.align-items-center h3.m-0 {
     padding: 8px;
     color: #37515f;
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: -1px;
     font-weight: 300;
 }
