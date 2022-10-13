@@ -9,7 +9,7 @@
     font-weight: 400;
     line-height: 41px;
     letter-spacing: -0.47px;
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
     color: #37515F;
 }
 .resources-article-heading p{
@@ -29,6 +29,9 @@
 }
 .resources-card .reasource-gallery-link a{
     font-size: 20px;
+    text-decoration: none;
+    color: #37515F;
+    padding: 10px 0px 0px 0px;
 }
 .resource-border-column:nth-child(even){
     border-left: 1px solid rgb(216, 216, 216);
@@ -72,6 +75,7 @@
     font-weight: 500;
     line-height: 32px;
     letter-spacing: -1px;
+    text-decoration: none;
     }
     @media only screen and (max-width: 992px){
         .order-sample-section .col-lg-4.col-md-6.col-sm-12{
@@ -86,14 +90,18 @@
         .image_gallery_gallery_section.d-flex{
             margin-top: 35px;
         }
+        .application_sec .row .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+            border-right: 0px;
+                
+         }
     }
     @media only screen and (max-width: 767px){
         .order-sample-section .col-lg-4.col-md-6.col-sm-12:nth-child(even){
             border-left: 0px ;
         }
+        .application_sec .row .col-lg-4.col-md-6.col-sm-12:nth-child(even){
+            border-left: 0px;
+                
+         }
     }
-/*Order Sample*/
-/*Divider*/
-.resources-divider{
-    
-}
+/*Order Sample End*/
