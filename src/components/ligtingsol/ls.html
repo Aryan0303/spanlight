@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="/scss/styles.scss" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <title>Lighting Solutions</title>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
+              <a class="nav-link" href="/components/resources/resources.html">Resources</a>
             </li>
           </ul>
           <div class="custom-select d-flex justify-content-between align-items-center" style="width: 200px">
@@ -57,8 +63,21 @@
 
     <div class="row">
       <div class="col-lg-6 ">
-        <img src="\Images\backlit-reception-desk-care-spanlite-4.jpg" alt="" />
+        <div class="swiper product_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="\Images\backlit-reception-desk-care-spanlite-4.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="\Images\backlit-glass-walls-hatton-spanlite-7.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="\Images\backlit-reception-desk-care-spanlite-4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
+
       <!--2nd Section -->
       <div class="col-lg-6 d-flex justify-content-end align-items-end" style="background-color: #37515f">
         <div class="lightninig-solution-banner-content-section">
@@ -378,8 +397,8 @@
             <div class="footer_pages_link d-flex">
               <div class="footer_section_pages">
                 <p class="m-0 py-1"><a href="#">Home</a></p>
-                <p class="m-0 py-1"><a href="#">Contact Us</a></p>
-                <p class="m-0 py-1"><a href="\components\libraries\digital-images.html">Digital Image Library </a></p>
+                <p class="m-0 py-1"><a href="/components/Contact Us/contact.html">Contact Us</a></p>
+                <p class="m-0 py-1"><a href="/components/Digitallib/digitallib.html">Digital Image Library </a></p>
                 <p class="m-0 py-1"><a href="#">Stone Slab Library</a></p>
               </div>
               <div class="footer_section_pages">
@@ -496,6 +515,8 @@
       </div>
     </div>
   </div>
+  <script type="module" src="../../js/ls.js"></script>
+
 </body>
 
 </html>

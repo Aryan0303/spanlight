@@ -3,8 +3,9 @@
 
 }
 
+
 .Services-About-heading h2 {
-    font-size: 35px;
+    font-size: 41px;
     letter-spacing: -1px;
     line-height: 45px;
     font-weight: 400;
@@ -19,4 +20,79 @@
     line-height: 27px;
     font-size: 21px;
     color: #37515f;
+}
+/* slider*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.card-slider{
+    padding: 50px 0;
+}
+.text-box p{
+    font-size: 40px;
+    font-weight: 400;
+}
+.text-box {
+    text-align: center;
+    background-color: #37515F;
+    color: white;
+    padding: 65px 103px 85px 53px;
+    
+}
+
+
+  /* slider end */
+  /* Our Services */
+  .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
 }

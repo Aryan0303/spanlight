@@ -1,0 +1,66 @@
+ /*Banner Section Css*/
+ .main-banner{
+    width: 100%;
+    background-color: var(--theme_color);
+    padding: 40px 30px 40px 30px;
+    .image-lib-banner-head{
+        margin-bottom: 20px;
+       h2{
+        color: white;
+        font-size: 25px;
+    font-weight: normal;
+    } 
+    }
+    .image-lib-banner-content{
+        margin-bottom: 30px;
+        p{
+            color: white;
+            font-weight: 400;
+        }
+    }
+
+    .stratum-image-glass{
+        margin-top: 40px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 1px;
+}
+        }
+    } 
+    /*End Of Banner Section*/
+  /*Gallery Section*/
+  .img-library-cards{
+     p{
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+     }
+     #blue-color{
+        color: #0092D1;
+     }
+     #seagreen-color{
+        color: #40E0D0;
+     }
+     #green-color{
+        color: #70D670;
+     }
+    .img-hover-zoom {
+        /* [1.1] Set it as per your need */
+       overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+     }
+     img {
+        transition: transform .5s ease;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+      }
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
+      }
+  }
+  
+  
+/*End of gallery*/

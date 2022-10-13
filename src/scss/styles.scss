@@ -19,8 +19,13 @@
 @import url("./product.scss");
 
 
+@import url("./digitallib.scss");
+@import url("./contact.scss");
 /*Recent Projects*/
-
+img.card-img {
+    height: 330px;
+    width: 470px;
+}
 .recent_projects {
     width: 100%;
     padding: 20px 20px;
