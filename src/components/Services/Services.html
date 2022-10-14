@@ -9,12 +9,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <!-- Link Swiper's CSS -->
+    <!--Accordian cdns-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/Accordian.js" ></script>
+    <!-- Link Swiper's  slider CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-    <!-- Swiper JS -->
+    <!-- Swiper  slider JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <title>Services</title>
 </head>
@@ -196,57 +201,87 @@
                            that exceed their expectations. From design concept through to installation, our team's unique skill set will help fine-tune your 
                           project and help you deliver something truly remarkable.
                             <br /><br />
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="headingOne">
-                                      <h4 class="panel-title">
-                                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                              <i class="more-less glyphicon glyphicon-plus"></i>
-                                              Collapsible Group Item #1
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                      <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
-                                  </div>
-                              </div>
-                      
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="headingTwo">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                              <i class="more-less glyphicon glyphicon-plus"></i>
-                                              Collapsible Group Item #2
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                      <div class="panel-body">
-                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
-                                  </div>
-                              </div>
-                      
-                              <div class="panel panel-default">
-                                  <div class="panel-heading" role="tab" id="headingThree">
-                                      <h4 class="panel-title">
-                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                              <i class="more-less glyphicon glyphicon-plus"></i>
-                                              Collapsible Group Item #3
-                                          </a>
-                                      </h4>
-                                  </div>
-                                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                      <div class="panel-body">
-                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
-                                  </div>
+                        </P>
+                        <!--Accordian-->
+                        <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                  <i class="fa fa-plus"></i>
+                                  Sales & Client Services</a>
+                              </h4>
+                            </div> 
+                            <div id="collapse1" class="panel-collapse collapse in">
+                              <div class="panel-body">Our friendly sales and client services team will oversee your project through every stage.  From your initial enquiry, through design development,
+                                 production and installation, they are always on hand to help you and will guide y
+                                our project to completion.  Their proactive stance ensures that each phase is closely monitored and that documents, designs, samples and products are delivered to schedule.</div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                  <i class="fa fa-plus"></i>
+                                  Technical Team</a>
+                              </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                              <div class="panel-body">With years of experience in the industry,
+                                 our technical team are masters at identifying the best systems and bespoke solutions on any project.</div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                  <i class="fa fa-plus"></i>
+                                  Studio  & Artwork</a>
+                              </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                              <div class="panel-body">Our Design Studio 
+                                is equipped to handle all your graphic design needs.   
+                                <br /><br />
+                                Our skilled designers are experts 
+                                at handling large format imagery and understand how designs can be applied to illuminated surface materials.
                               </div>
                             </div>
-                        </P>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                  <i class="fa fa-plus"></i>
+                                  Manufacturing</a>
+                              </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                              <div class="panel-body">Once all details have been agreed and signed off, your project moves into production with Spanlite’s Manufacturing team. 
+                                <br /><br />
+                                Everything we make is made-to-measure.  Our engineers fabricate each element to a precise set of criteria to match your requirements.   
+                                <br /><br />
+                                On more unusual projects, samples & mock-ups will be manufactured for approval, validating design decisions and ensuring client satisfaction. 
+
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                  <i class="fa fa-plus"></i>
+                                  Installation Team</a>
+                              </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            </div>
+                          </div>
+                        </div> 
+                         <!--Accordian End -->
                     </div>
                   </div>
                 </div>
