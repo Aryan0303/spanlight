@@ -64,6 +64,12 @@
 
   /* slider end */
   /* Our Services */
+  .Our-services-s {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #37515f;
+    margin: 20px 0px 0px 0px;
+}
   .panel-title > a {
     display: block;
     padding: 15px;
@@ -71,4 +77,68 @@
     color: #37515F;
     font-size: 30px;
     font-weight: 400;
+}
+.panel-title > a:hover{
+    color: #37515F;
+}
+.number-text p{
+    font-size: 120px;
+    color: #fff;
+    font-weight: 400;
+}
+.btn-square5 {
+    background-color: #0693e3;
+    padding: 6px 6px;
+    margin: 1px 4px 222px 0px;
+  }
+  .btn-square6 {
+    background-color:#2ACB7D ;
+    padding: 6px 6px;
+    margin: 1px 4px 222px 0px;
+  }
+.btn-square5.col-sm-1 {
+    height: 15px;
+    width: 15px;
+    margin: 85px 20px 37px 25px;
+}
+.btn-square6.col-sm-1 {
+    height: 15px;
+    width: 15px;
+    margin: 85px 20px 37px 25px;
+}
+
+
+  p.our-process-p.col-sm-10 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 40px 0px 15px 12px;
+}
+ /* Our Services  end*/
+  /* my team  */
+  .my-team{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 20px;
+    background-color: #fff;
+  }
+  .mt-heading{
+    color: #37515F;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -1px;
+  }
+  .team{
+    background-color: #F2F1F1;
+    width: 100%;
+    opacity:1.5;
+    margin:  20px 0px 0px 0px ;
+  }
+  img.members-img {
+    width: 175px;
+    margin: 50px 0px 20px 30px;
+}
+.members-text.col-sm-6 {
+    margin: 50px 0px 0px 175px;
 }

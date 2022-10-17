@@ -118,7 +118,11 @@ padding-bottom: 7px;
     display: flex;
     flex-wrap: wrap;
 }
-
+.hatton-p{
+    margin-top: 1px;
+    margin-bottom: 4rem;
+    
+}
 .hatton_image_sec {
     padding: 0px 50px 0px 0px;
     border-right: 1px solid rgb(216, 216, 216);
@@ -146,11 +150,23 @@ padding-bottom: 7px;
     color: #37515f;
 }
 
-.hatton_our_services a {
+.hatton_our_services p {
     text-decoration: none;
     color: #37515f;
 }
-
+.our-p {
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    color: #37515f;
+}
+.our-p:hover{
+    color: #37515f;
+}
+.our-p  {
+    text-decoration: none;
+    color: #37515f;
+}
 @media only screen and (max-width: 992px) {
     #hatton_section {
         padding: 40px 0px;
@@ -299,10 +315,12 @@ padding-bottom: 7px;
     text-decoration: none;
 }
 
+
 .our_products_arrow_link a p {
     font-size: 16px;
     color: #37515f;
-    line-height: 20px;
+    line-height: 40px;
+    margin: 10px 0px 0px 0px;
 }
 
 /*Image Gallery Section*/
@@ -343,16 +361,16 @@ padding-bottom: 7px;
 }
 
 .gallery_box {
-    padding: 0px 20px;
+    padding: 0px 2px;
 }
 
-.link_content a {
-    font-size: 16px;
+.link_content p {
+    font-size: 20px;
     color: #37515f;
     line-height: 20px;
     text-decoration: none;
 }
-.link_content a:hover{
+.link_content p:hover{
     color: #37515f;
 }
 .Latest_article_links div a {
