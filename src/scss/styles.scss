@@ -17,10 +17,9 @@
 @import url("./Services.scss");
 @import url("./style1.scss");
 @import url("./product.scss");
-
-
-@import url("./digitallib.scss");
+@import url("./stone.scss");
 @import url("./contact.scss");
+@import url("./terms.scss");
 /*Recent Projects*/
 img.card-img {
     height: 330px;
@@ -236,3 +235,92 @@ img.card-img {
     font-weight: 300;
 }
 /*lS Applications part End*/
+/* digital image library image hover scss */
+/*Banner Section Css*/
+.main-banner{
+    width: 100%;
+    background-color: var(--theme_color);
+    padding: 40px 30px 40px 30px;
+    .image-lib-banner-head{
+        margin-bottom: 20px;
+       h2{
+        color: white;
+        font-size: 25px;
+    font-weight: normal;
+    } 
+    }
+    .image-lib-banner-content{
+        margin-bottom: 30px;
+        p{
+            color: white;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+
+    .stratum-image-glass{
+        margin-top: 40px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 1px;
+}
+        }
+    } 
+    /*End Of Banner Section*/
+  /*Gallery Section*/
+  .img-library-cards{
+     p{
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+     }
+     #blue-color{
+        color: #0092D1;
+     }
+     #seagreen-color{
+        color: #40E0D0;
+     }
+     #green-color{
+        color: #70D670;
+     }
+    .img-hover-zoom {
+        /* [1.1] Set it as per your need */
+       overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+     }
+     img {
+        transition: transform .5s ease;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+      }
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
+      }
+  }
+  .img1.col-lg-4.col-md-6.col-sm-12 {
+    margin-right: 13px;
+}
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 32.333333%;
+}
+  }
+/*End of gallery*/
+/* digital image library image hover scss */
+/*all links are set */
+a {
+    text-decoration: none;
+    color: #37515f;
+}
+a:hover{
+    color: #37515f;
+}
+/*all links are set above */
+/*privacy css*/
+.privacy-content{
+    color: #37515f;
+}
