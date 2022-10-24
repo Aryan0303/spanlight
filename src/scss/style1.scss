@@ -126,7 +126,7 @@ button.btn.arrow_btn.btn-info {
 /*Hatton Garden Section*/
 #lightning-solution-hatton-section {
   width: 100%;
-  padding: 80px 0px;
+  padding: 40px 0px;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -349,7 +349,9 @@ button.btn.arrow_btn.btn-info {
   padding: 6px 6px;
   margin: 1px 4px 222px 0px;
 }
-
+.link_content a h3{
+  font-size: 18px;
+}
 a.Links {
   color: black;
   text-decoration: none;

@@ -118,11 +118,7 @@ padding-bottom: 7px;
     display: flex;
     flex-wrap: wrap;
 }
-.hatton-p{
-    margin-top: 1px;
-    margin-bottom: 4rem;
-    
-}
+
 .hatton_image_sec {
     padding: 0px 50px 0px 0px;
     border-right: 1px solid rgb(216, 216, 216);
@@ -153,6 +149,13 @@ padding-bottom: 7px;
 .hatton_our_services p {
     text-decoration: none;
     color: #37515f;
+}
+.hatton_our_services .link_content a h3{
+    font-size: 18px;
+}
+.ls-appliaction-head .image img{
+    max-width: 15px;
+    height: auto;
 }
 .our-p {
     font-size: 19px;
@@ -264,7 +267,9 @@ padding-bottom: 7px;
     font-size: 20px;
     line-height: 27px;
 }
-
+.lightning_card a h3{
+    font-size: 18px;
+}
 @media only screen and (max-width: 767px) {
     #border_card {
         border-right: none;
@@ -345,6 +350,7 @@ padding-bottom: 7px;
 
 .image_gallery_gallery_section {
     flex-basis: 50%;
+    padding: 0px 20px 0px 0px;
 }
 
 .image_gallery_heading h2 {
@@ -363,7 +369,9 @@ padding-bottom: 7px;
 .gallery_box {
     padding: 0px 2px;
 }
-
+.gallery_box a h3{
+    font-size: 18px;
+}
 .link_content p {
     font-size: 20px;
     color: #37515f;
@@ -373,9 +381,9 @@ padding-bottom: 7px;
 .link_content p:hover{
     color: #37515f;
 }
-.Latest_article_links div a {
+.Latest_article_links a h3{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #37515f;
 }
 

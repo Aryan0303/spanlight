@@ -22,9 +22,15 @@
 @import url("./terms.scss");
 /*Recent Projects*/
 img.card-img {
-    height: 330px;
-    width: 470px;
+   max-width: 100%;
+   height: auto;
 }
+/*@media only screen and (max-width: 500px){
+    img.card-img {
+        height: 280px;
+        width: 400px;
+    } 
+}*/
 .recent_projects {
     width: 100%;
     padding: 20px 20px;
@@ -300,9 +306,7 @@ img.card-img {
         transform: scale(1.1);
       }
   }
-  .img1.col-lg-4.col-md-6.col-sm-12 {
-    margin-right: 13px;
-}
+ 
 @media (min-width: 992px){
 .col-lg-4 {
     flex: 0 0 auto;

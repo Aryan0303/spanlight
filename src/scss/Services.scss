@@ -72,7 +72,7 @@
 }
   .panel-title > a {
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
     text-decoration: none;
     color: #37515F;
     font-size: 30px;
@@ -89,12 +89,12 @@
 .btn-square5 {
     background-color: #0693e3;
     padding: 6px 6px;
-    margin: 1px 4px 222px 0px;
+    
   }
   .btn-square6 {
     background-color:#2ACB7D ;
     padding: 6px 6px;
-    margin: 1px 4px 222px 0px;
+    
   }
 .btn-square5.col-sm-1 {
     height: 15px;
@@ -108,37 +108,61 @@
 }
 
 
-  p.our-process-p.col-sm-10 {
+p.our-process-p  {
     color: #fff;
     font-size: 24px;
     font-weight: 400;
-    margin: 40px 0px 15px 12px;
+    margin: 0px 0px 0px 18px;
 }
  /* Our Services  end*/
   /* my team  */
-  .my-team{
+  .My-team-services{
     width: 100%;
-    margin: 20px 0px 0px 0px;
-    padding: 20px 20px;
-    background-color: #fff;
   }
-  .mt-heading{
-    color: #37515F;
+  .our-team-heading h2{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 45px;
     letter-spacing: -1px;
   }
-  .team{
-    background-color: #F2F1F1;
-    width: 100%;
-    opacity:1.5;
-    margin:  20px 0px 0px 0px ;
+.service-my-team{
+  flex-wrap: wrap;
+  background-color: #F9F8F8;
+}
+.services-team-card .team-card-content h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.services-team-card .team-card-content p{
+  font-size: 16px;
+  line-height: 20px; 
+}
+.services-team-card{
+  flex-basis: 33.33%;
+}
+.services-team-card .team-card-image {
+  margin-right: 10px;
+}
+@media screen and (max-width: 1260px){
+  .service-my-team{
+    flex-wrap: wrap;
   }
-  img.members-img {
-    width: 175px;
-    margin: 50px 0px 20px 30px;
+  .services-team-card{
+    flex-basis: 50%;
+  }
 }
-.members-text.col-sm-6 {
-    margin: 50px 0px 0px 175px;
+@media screen and (max-width: 850px){
+  .service-my-team{
+    flex-wrap: wrap;
+  }
+  .services-team-card{
+    flex-basis: 100%;
+  }
 }
+@media screen and (max-width: 500px){
+  .services-team-card{
+    flex-wrap: wrap;
+  }
+}
+/*Team End*/
