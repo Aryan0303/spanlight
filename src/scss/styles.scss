@@ -20,6 +20,13 @@
 @import url("./stone.scss");
 @import url("./contact.scss");
 @import url("./terms.scss");
+@import url("./edge-lit-glass.scss");
+@import url("./michael-bank.scss");
+@import url("./display-light-box.scss");
+@import url("./onyx-marble-images.scss");
+@import url("./eiko-jones.scss");
+@import url("./bling.scss");
+@import url("./led-ceilings.scss");
 /*Recent Projects*/
 img.card-img {
    max-width: 100%;
@@ -145,30 +152,24 @@ img.card-img {
 .main_footer {
     background-color: #37515f;
 
-    .footer_section_pages {
+    
 
-        p {
-            a {
-                color: white;
-                text-decoration: none;
-                font-size: 16px;
-                font-weight: 300;
-            }
-        }
-    }
-
+}
+.footer_section_pages p a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;      
 }
 
 .footer_section_pages {
     flex: 1;
 }
 
-.footer_col_content {
-    p {
+.footer_col_content p {
         font-size: 16px;
         font-weight: 400;
         color: white;
-    }
 }
 
 .input-group {
@@ -182,13 +183,13 @@ img.card-img {
     }
 }
 
-.footer_col_title {
-    h2 {
+.footer_col_title h2  {
+    
         font-size: 20px;
         font-weight: 300;
         color: white;
 
-    }
+    
 }
 
 /*Last Footer Section*/
@@ -307,12 +308,12 @@ img.card-img {
       }
   }
  
-@media (min-width: 992px){
+/*@media (min-width: 992px){
 .col-lg-4 {
     flex: 0 0 auto;
     width: 32.333333%;
 }
-  }
+  }*/
 /*End of gallery*/
 /* digital image library image hover scss */
 /*all links are set */

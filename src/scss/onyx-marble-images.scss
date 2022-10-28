@@ -1,0 +1,27 @@
+/*Banner Section*/
+.onyx-banner-section{
+    background-color: #E4E4E4;
+    width: 100%;
+    padding: 40px 40px 30px 40px;
+}
+.onyx-content h3{
+    color: #37515f;
+}
+.onyx-fillters{
+    margin-top: 20px;
+}
+.onyx-fillters .btn-active{
+    background-color: black;
+    color: white;
+    border-radius: 0px !important;
+}
+/*End of Banner Section*/
+/*Gallery Section*/
+.onyx-gallery .ls-image-card {
+    height: 260px;
+}
+.onyx-gallery .ls-image-card .image{
+    max-width: 100%;
+    height: 100%;
+}
+/*End Of Gallery Section*/

@@ -1,0 +1,118 @@
+/*Accordian*/ul.nav.nav-tabs{
+    border-bottom: 0px !important;
+}
+
+ul.nav.nav-tabs li a{
+    color: #37515F;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: -1px;
+    
+}
+ul.nav.nav-tabs li:nth-child(even) a{
+    padding: 0px 40px 0px 40px;
+}
+@media screen and (max-width: 768px){
+    ul.nav.nav-tabs li a{
+        font-size: 25px;
+    }
+    ul.nav.nav-tabs li:nth-child(even) a{
+        padding: 0px 20px 0px 20px;
+    }
+}
+ul.nav.nav-tabs li:nth-child(1) a:hover{
+    color: #12B4F0;
+}
+
+ul.nav.nav-tabs li:nth-child(2) a:hover{
+    color: #0CCACA;
+}
+ul.nav.nav-tabs li:nth-child(3) a:hover{
+    color: #2ACB7D;
+}
+.tab-pane {
+    margin-top: 50px;
+}
+.tab-section-1 img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.tab-section-1 p{
+    color: #37515F;
+    font-weight: 400;
+    font-size: 1.0625rem;
+}
+.tab-section-2 table{
+    width: 100%;
+}
+.tab-section-2 table tr{
+    border-bottom: 1px solid #37515F;
+   
+}
+.tab-section-2 table td{
+    padding: 10px 0px;
+    font-weight: 500;
+    color: #37515F;
+}
+.tab-section-3{
+    background-color: #37515F;
+}
+
+.product-detail-tabs {
+    max-width: 90% !important;
+    margin: 0px auto;
+}
+.tabs-section{
+    background-color: #F2F1F1;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+/*Accordian End*/
+/*Banner Section*/
+.product-detail-main-banner img{
+  width: 100%;
+  height: auto;
+}
+.edge-lit-banner-content-section h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.edge-lit-banner-content-section p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.edge-lit-banner-content-section .btn{
+    border: 1px solid white; outline: none; border-radius: 30px; padding: 10px 20px; color: white;
+}
+.edge-lit-banner-content-section .btn:hover{
+    border: 1px solid white; color: white;
+}
+/*Banner Section End*/
+/*Social Icons*/
+.product-detail-social-links a:nth-child(1) .xs-social-icons{
+    background-color: #3A5896;
+}
+.product-detail-social-links a:nth-child(2) .xs-social-icons{
+    background-color: #1d9ff0;
+}
+.product-detail-social-links a:nth-child(3) .xs-social-icons{
+    background-color:  #BB081C;
+}
+.product-detail-social-links a:nth-child(4) .xs-social-icons{
+    background-color: #25D366}
+.product-detail-social-links .xs-social-icons{
+    padding: 6px 10px;
+}
+.product-detail-social-links{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.product-detail-social-links h3{
+    color: #37515F;
+    font-weight: 500;
+}

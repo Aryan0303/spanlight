@@ -1,0 +1,24 @@
+.project-detail-main-section{
+    background-color: #314956;
+}
+.project-inner-slider {
+    width: 100%;
+    height: 600px;
+}
+.project-inner-slider img{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.project-detail-main-section .project-detail-main-content h2{
+    font-size: 16px;
+}
+.project-detail-main-section .project-detail-main-content h2 a{
+    text-decoration: none;
+    color: #07CAC7 !important;
+}
+@media screen and (max-width: 992px){
+    .project-detail-main-slider {
+        height: auto;
+    }
+}

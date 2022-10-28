@@ -23,14 +23,12 @@
 
 /* Resources Gallery*/
 
-.resources-card img{
+.resource-border-column a img{
     max-width: 100%;
     height: auto;
     width: 100%;
 }
-.resources-card .reasource-gallery-link a{
-    font-size: 20px;
-}
+
 .resource-border-column:nth-child(even){
     border-left: 1px solid rgb(216, 216, 216);
     border-right: 1px solid rgb(216, 216, 216);

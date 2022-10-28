@@ -1,0 +1,21 @@
+
+.michael-banner-section{
+    padding: 0px 40px;
+    background-color: #E4E4E4;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.michael-bank-gallery{
+    padding: 0px 20px;
+}
+.michael-bank-gallery .michael-image-card img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.michael-bank-gallery .michael-image-card h3{
+    color: #0092D1;
+    font-size: 18px;
+    font-weight: 600;
+}
