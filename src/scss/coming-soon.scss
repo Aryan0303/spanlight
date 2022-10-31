@@ -1,0 +1,28 @@
+.coming-soon-banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/Images/photo-1553095066-5014bc7b7f2d.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.coming-soon-banner-section p h1{
+    font-size: 30px;
+   
+}
+.coming-soon-banner-section p{
+    font-size: 20px;
+}
+.coming-soon-banner-section .content-top-border-divider{
+    border-top: 5px solid white;
+    width: 50%;
+    margin: 0 auto;
+}
+.coming-soon-banner-section .content-bottom-border-divider{
+    border-top: 2px solid white;
+    width: 50%;
+    margin: 0 auto;
+}
+.coming-soon-icons i{
+    font-size: 25px;
+}
