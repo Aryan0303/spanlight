@@ -41,7 +41,6 @@ select.py-2 {
     background-color: #37515f;
     border: none;
     color: white;
-    
     width: 115px
 }
 
@@ -128,22 +127,45 @@ button.btn.arrow_btn.btn-info {
 }
 /*End of Second Section*/
 /*Hatton Garden Section*/
-#lightning-solution-hatton-section {
+.lightning-solution-hatton-section {
   width: 100%;
   padding: 40px 0px;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
+.lightning-solution-content-image-section{
+  flex-direction: row-reverse;
+}
+.lightning-solution-content-image-section .lightning-solution-hatton-image-sec{
+  padding: 0px 0px 0px 30px;
+  border-right: 0px;
+}
+.lightning-solution-content-image-section .lightning-solution-hatton-content-section{
+  border-right: 1px solid rgb(216, 216, 216) ;
+}
 .lightning-solution-hatton-image-sec {
   padding: 0px 30px 0px 0px;
   border-right: 1px solid rgb(216, 216, 216);
   flex-basis: 50%;
 }
+/*Square Text*/
+.btn-btn-square{
+  display: block;
+}
+.btn-btn-square::before{
+  content: "";
+  width: 17px;
+  height: 17px;
+  background-color: #0693e3;
+  margin: 0px 14px 0px 0px;
+  display: inline-block;
+}
+/*End*/
 .lightning-solution-hatton-image-sec img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+  
   
 }
 .hatton_image_sec1 {
@@ -153,7 +175,7 @@ button.btn.arrow_btn.btn-info {
 .hatton_image_sec1 img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+  
   
 }
 .lightning-solution-hatton-content-section {
@@ -170,28 +192,12 @@ button.btn.arrow_btn.btn-info {
   color: #37515f;
   
 }
-.lightning-solution-hatton-content-section1 {
-  padding: 0px 50px 0px 25px;
-  flex-basis: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-right: 1px solid rgb(216, 216, 216);
-  flex-basis: 50%;
-}
-.lightning-solution-hatton-content-section1 P {
-  font-size: 20px;
-  letter-spacing: -0.5px;
-  line-height: 41px;
-  color: #37515f;
-  
-}
 .hatton_our_services a {
   text-decoration: none;
   color: #37515f;
 }
 @media only screen and (max-width: 992px) {
-  #hatton_section {
+  .hatton_section {
     padding: 0px 0px;
   }
   .hatton_image_sec {
@@ -208,23 +214,22 @@ button.btn.arrow_btn.btn-info {
     padding: 0px 30px 0px 25px;
     flex-basis: 100%;
   }
-  .lightning-solution-hatton-content-section1 {
-    padding: 0px 30px 0px 25px;
-    flex-basis: 100%;
-  }
   .hatton_our_services a p {
     margin-bottom: 0px !important;
   }
   .lightning-solution-hatton-content-section {
     margin-top: 30px;
   }
-  .lightning-solution-hatton-content-section1 {
-    margin-top: 30px;
-  }
   .lightning-solution-hatton-image-sec{
     flex-basis: 100%;
     padding-right: 0px;
     border-right: none;
+  }
+  .lightning-solution-content-image-section .lightning-solution-hatton-image-sec{
+    padding: 0px 0px 0px 0px;
+  }
+  .lightning-solution-content-image-section .lightning-solution-hatton-content-section{
+    border-right: 0px;
   }
 }
 /*eND of hatton */
@@ -333,10 +338,10 @@ button.btn.arrow_btn.btn-info {
     height: 40px;
   }
 }
-.btn-square {
+/*.btn-square {
   background-color: #0693e3;
-  padding: 6px 6px;
-  margin: 4px 2px;
+  width: 15px;
+  height: 15px;
 }
 .btn-square1 {
   background-color: rgb(12, 202, 202);
@@ -352,7 +357,7 @@ button.btn.arrow_btn.btn-info {
   background-color: #0693e3;
   padding: 6px 6px;
   margin: 1px 4px 222px 0px;
-}
+}*/
 .link_content a h3{
   font-size: 18px;
 }

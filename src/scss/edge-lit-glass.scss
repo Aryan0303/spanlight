@@ -37,7 +37,7 @@ ul.nav.nav-tabs li:nth-child(3) a:hover{
 .tab-section-1 img{
     max-width: 100%;
     height: auto;
-    width: 100%;
+    
 }
 .tab-section-1 p{
     color: #37515F;
@@ -59,7 +59,10 @@ ul.nav.nav-tabs li:nth-child(3) a:hover{
 .tab-section-3{
     background-color: #37515F;
 }
-
+.tab-section-3 img{
+    max-width: 100%;
+    height: auto;
+}
 .product-detail-tabs {
     max-width: 90% !important;
     margin: 0px auto;
@@ -72,9 +75,9 @@ ul.nav.nav-tabs li:nth-child(3) a:hover{
 
 /*Accordian End*/
 /*Banner Section*/
-.product-detail-main-banner img{
-  width: 100%;
-  height: auto;
+body > div > div:nth-child(2) > div:nth-child(1) > img{
+    width: 100%;
+    height: auto;
 }
 .edge-lit-banner-content-section h3{
     font-size: 24px;
@@ -92,6 +95,57 @@ ul.nav.nav-tabs li:nth-child(3) a:hover{
     border: 1px solid white; color: white;
 }
 /*Banner Section End*/
+
+/*Add to cart section*/
+.custom-sale-message{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.custom-sale-message .row{
+    background-color: #CAD2D5;
+}
+.custom-sale-message h6{
+    color: #37515F;
+
+}
+.custom-sale-message p{
+    color: #37515F;
+    
+}
+/*End*/
+/*Add to cart*/
+.add-to-cart-section{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.add-to-cart-section .row{
+    background-color: #37515F;
+}
+.add-to-cart-section table{
+    width: 100%;
+}
+.add-to-cart-section table tr td select{
+    max-width: 100%;
+    min-width: 85%;
+    display: inline-block;
+    padding: 10px 5px;
+    border: none;
+    outline: black;
+}
+.add-to-cart-content-section p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.diagram-link ul li{
+    list-style: none;
+}
+.diagram-link ul li a::before{
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='15px' height='15px' viewBox='0 0 15 15'%3E%3Ctitle%3Earr-diag-w%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Desktop' transform='translate(-682.000000, -5251.000000)' fill='%23FFFFFF'%3E%3Cpolygon id='arr-diag-w' points='683.053174 5251 682 5252.05317 694.457212 5264.51039 682.699004 5264.51039 682.699004 5266 695.510386 5266 697 5266 697 5251.699 695.510386 5251.699 695.510386 5263.45721'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    padding-right: 10px;
+}
+/*End*/
 /*Social Icons*/
 .product-detail-social-links a:nth-child(1) .xs-social-icons{
     background-color: #3A5896;

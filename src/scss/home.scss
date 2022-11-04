@@ -62,7 +62,7 @@
     width: 100%;
     height: 300px;
     background-color: var(--theme_color);
-    padding: 20px 30px;
+    
 }
 
 .second_section .sec_content p {
@@ -199,7 +199,6 @@ padding-bottom: 7px;
 
 .lighting_solution_heading {
     flex-basis: 35%;
-    padding: 0px 25px;
 }
 
 .lighting_solution_heading h2 {
@@ -280,13 +279,8 @@ padding-bottom: 7px;
 
 
 /*Our Product*/
-#our_product_section_background_color {
+.our_product_section_background_color {
     background-color: #EBE9E8;
-
-}
-
-.our_product_heading {
-    padding: 10px 25px;
 
 }
 
@@ -310,6 +304,10 @@ padding-bottom: 7px;
 
 .our_product_image {
     padding: 10px 15px;
+}
+.our_product_image img{
+    max-width: 100%;
+    height: auto;
 }
 
 .our_products_arrow_link {
@@ -344,7 +342,6 @@ padding-bottom: 7px;
 }
 
 .image_gallery_heading {
-    padding: 0px 25px;
     flex-basis: 50%;
 }
 
@@ -387,28 +384,18 @@ padding-bottom: 7px;
     color: #37515f;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1218px) {
-    .image-gallery {
-        flex-wrap: wrap;
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+    .image_gallery_heading h2{
+        font-size: 25px;
     }
-
-    .image_gallery_first_section {
-        flex-basis: 100%;
-        margin: 20px 0px;
-        border-right: none;
+    .gallery_box a h3{
+        font-size: 16px;
     }
-
-    .image_gallery_heading {
-        flex-basis: 50%;
+    .image_gallery_gallery_section{
+        padding: 0px;
     }
-
-    .image_gallery_gallery_section {
-        flex-basis: 50%;
-    }
-
-    .image_gallery_second_section {
-        flex-basis: 100%;
-        margin-top: 40px;
+    .Latest_article_links a h3{
+        font-size: 16px;
     }
 }
 
@@ -416,21 +403,50 @@ padding-bottom: 7px;
     .gallery_box img {
         max-width: 150px;
     }
+    .image_gallery_gallery_section.d-flex{
+        flex-wrap: wrap;
+    }
 }
-
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+@media only screen and (max-width: 766px){
+    .section.image_gallery.d-flex.py-5.px-3{
+        flex-wrap: wrap;
+    }
+    .image_gallery_first_section.d-flex.justify-content-between{
+        flex-wrap: wrap;
+    }
+    .image_gallery_second_section.d-flex.justify-content-between{
+        flex-wrap: wrap;
+    }
+    .image_gallery_first_section{
+        flex-basis: 100%;
+    }
+    .image_gallery_heading{
+        flex-basis: 100%;
+    }
+    .image_gallery_gallery_section{
+        flex-basis: 100%;
+    }
+    .image_gallery_second_section{
+        flex-basis: 100%;
+    }
+    .image_gallery_first_section{
+        border-right: 0px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
     .image_gallery_first_section {
         flex-basis: 100%;
         flex-wrap: wrap;
+        border-right: 0px;
     }
 
     .image_gallery_heading {
-        flex-basis: 100%;
-        padding: 0px 20px 20px 20px;
+        flex-basis: 50%;
+        padding: 20px 20px 20px 20px;
     }
 
     .image_gallery_gallery_section {
-        flex-basis: 100%;
+        flex-basis: 50%;
         justify-content: flex-start !important;
     }
 
@@ -441,77 +457,3 @@ padding-bottom: 7px;
 }
 
 /*Footer*/
-.main_footer{
-    width: 100%;
-    background-color: #37515f;
-    padding: 50px 20px;
-
-    .footer_pages_link{
-        .footer_section_pages{
-
-            p{
-                a{
-                    color: white;
-                    text-decoration: none;
-                    font-size: 16px;
-                    font-weight: 300;
-                }
-            }
-        }
-    }
-}
-.footer_section_pages{
-    flex: 1;
-}
-.footer_col_content {
-    p{
-    font-size: 16px;
-    font-weight: 300;
-    color: white;
-}
-}
-
-.input-group{
-    input{
-        background: none;
-        border: none;
-    }
-    input:focus{
-        background: none;
-    }
-}
-.footer_col_title{
-    h2{
-        font-size: 20px;
-        font-weight: 300;
-        color: white;
-
-    }
-}
-/*Last Footer Section*/
-.footer_images_section img{
-    max-width: 100%;
-    height: auto;
-    padding: 0px 10px;
-}
-.download_brochure_section p{
-    font-size: 20px;
-    line-height: 21px;
-    font-weight: 300;
-    font-family: "R MNeue Regular", Sans-serif;
-    color: #37515f;
-}
-.design_by_section p{
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 21px;
-    color: #37515f;
-}
-@media only screen and (max-width: 992px){
-    .footer_images_section{
-        justify-content: flex-start !important;
-    }
-    .design_by_section {
-        justify-content: flex-start !important;
-    }
-}

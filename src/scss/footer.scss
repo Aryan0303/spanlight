@@ -1,54 +1,45 @@
 /*Footer*/
 .main_footer {
-    background-color: #37515f;
-
-    .footer_section_pages {
-
-        p {
-            a {
-                color: white;
-                text-decoration: none;
-                font-size: 16px;
-                font-weight: 300;
-            }
-        }
-    }
-
+    width: 100%;
 }
-
+.footer_section_pages p a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;      
+}
 .footer_section_pages {
     flex: 1;
 }
 
-.footer_col_content {
-    p {
+.footer_col_content p {
         font-size: 16px;
         font-weight: 400;
         color: white;
-    }
 }
+.footer_col_title h2  {
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
 
-.input-group {
-    input {
+
+}
+.main_footer .upper-footer-section {
+    background-color: #37515f;
+}
+.input-group input {
+    
         background: none;
-        border: none;
-    }
-
-    input:focus {
-        background: none;
-    }
+        border: none;     
 }
-
-.footer_col_title {
-    h2 {
-        font-size: 20px;
-        font-weight: 300;
-        color: white;
-
-    }
+.input-group input:focus{
+    background: none;
 }
-
 /*Last Footer Section*/
+.lower-footer.py-3.px-3{
+    width: 100%;
+}
 .footer_images_section img {
     max-width: 100%;
     height: auto;
@@ -71,11 +62,35 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .footer_images_section {
+    .footer_images_section.d-flex.flex-wrap.justify-content-center.py-3 {
         justify-content: flex-start !important;
     }
 
-    .design_by_section {
+    .design_by_section.d-flex.justify-content-end.py-3{
         justify-content: flex-start !important;
     }
 }
+
+.footer-col-title-border-1::before{
+    content: "";
+    border-bottom : 3px solid #0693e3;
+    width: 100%;
+    display: inline-block;
+}
+.footer-col-title-border-2::before{
+    content: "";
+    border-bottom : 3px solid #8ed1fc;
+    width: 100%;
+    display: inline-block;
+}
+.footer-col-title-border-3::before{
+    content: "";
+    border-bottom : 3px solid #00d084;
+    width: 100%;
+    display: inline-block;
+}
+/*Footer
+#0693e3
+#8ed1fc
+#00d084
+*/

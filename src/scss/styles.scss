@@ -28,6 +28,7 @@
 @import url("./eiko-jones.scss");
 @import url("./bling.scss");
 @import url("./led-ceilings.scss");
+@import url("./footer.scss");
 /*Recent Projects*/
 img.card-img {
    max-width: 100%;
@@ -41,7 +42,6 @@ img.card-img {
 }*/
 .recent_projects {
     width: 100%;
-    padding: 20px 20px;
     background-color: #37515f;
     margin: 20px 0px 0px 0px;
 }
@@ -149,101 +149,23 @@ img.card-img {
     font-weight: 300;
 }
 /*Recent Projects End*/
-/*Footer*/
-.main_footer {
-    background-color: #37515f;
-
-    
-
-}
-.footer_section_pages p a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 300;      
-}
-
-.footer_section_pages {
-    flex: 1;
-}
-
-.footer_col_content p {
-        font-size: 16px;
-        font-weight: 400;
-        color: white;
-}
-
-.input-group {
-    input {
-        background: none;
-        border: none;
-    }
-
-    input:focus {
-        background: none;
-    }
-}
-
-.footer_col_title h2  {
-    
-        font-size: 20px;
-        font-weight: 300;
-        color: white;
-
-    
-}
-
-/*Last Footer Section*/
-.footer_images_section img {
-    max-width: 100%;
-    height: auto;
-    padding: 0px 10px;
-}
-
-.download_brochure_section p {
-    font-size: 20px;
-    line-height: 21px;
-    font-weight: 300;
-    font-family: "R MNeue Regular", Sans-serif;
-    color: #37515f;
-}
-
-.design_by_section p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 21px;
-    color: #37515f;
-}
-
-@media only screen and (max-width: 992px) {
-    .footer_images_section {
-        justify-content: flex-start !important;
-    }
-
-    .design_by_section {
-        justify-content: flex-start !important;
-    }
-}
-/*Footer End*/
-/*lS Applications part Start*/
+/*lS Applications part Start
 .ls-appliaction-content.d-flex.align-items-center a {
     text-decoration: none;
     color: #37515f;
     margin: 6px 0px;
     font-size: 18px;
-  line-height: 27px;
- 
-  text-align: left;
-}
+    line-height: 27px;
+    text-align: left;
+} */
 .ls-appliaction-head.d-flex.align-items-center h3.m-0 {
-    padding: 8px;
     color: #37515f;
     font-size: 30px;
     letter-spacing: -1px;
     font-weight: 300;
 }
 /*lS Applications part End*/
-/* digital image library image hover scss */
+/* digital image library image hover scss
 /*Banner Section Css*/
 .main-banner{
     width: 100%;
